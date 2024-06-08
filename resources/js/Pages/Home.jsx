@@ -21,7 +21,6 @@ export default function Welcome() {
                                 <a
                                     href={route("project.index")}
                                     className="flex flex-col items-start gap-6 overflow-hidden rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] md:row-span-3 lg:p-10 lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]"
-                                    
                                 >
                                     <div className="relative flex w-full flex-1 items-stretch">
                                         <img
@@ -34,14 +33,16 @@ export default function Welcome() {
 
                                     <div className="relative flex items-center gap-6 lg:items-end">
                                         <div className="flex items-start gap-6 lg:flex-col">
-                                            <div className="flex size-12 shrink-0 items-center justify-center rounded-full sm:size-16">
+                                            {/* <div className="flex size-12 shrink-0 items-center justify-center rounded-full sm:size-16">
                                                 <ApplicationLogo />
-                                            </div>
+                                            </div> */}
 
                                             <div className="pt-3 sm:pt-5 lg:pt-0">
-                                                <h2 className="uppercase text-xl font-semibold text-black dark:text-white">
-                                                    Datalogic Systems
-                                                    Corporation
+                                                <h2 className="uppercase text-3xl font-bold mb-4 ">
+                                                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary relative">
+                                                        Accusantium ut esse
+                                                        <span className="absolute  left-1/2 transform -translate-x-1/2 -bottom-2 h-[3px] w-16 bg-[#2aefe6]"></span>
+                                                    </span>
                                                 </h2>
 
                                                 <p className="mt-4 text-sm/relaxed">
